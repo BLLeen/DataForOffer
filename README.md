@@ -44,14 +44,21 @@ func qsort(arr []int) {
 
 
 ### 如何创建一个队列，优先队列，最大（小）堆？
+队列是先进先出，可以用双向链表来实现[https://github.com/mangoqiqi/Golang-learning/blob/master/main/queue.go](https://github.com/mangoqiqi/Golang-learning/blob/master/main/queue.go)
 
+优先队列可以用链表来做[https://github.com/mangoqiqi/Golang-learning/blob/master/main/priority_queue_list.go](https://github.com/mangoqiqi/Golang-learning/blob/master/main/priority_queue_list.go)
+
+优先队列堆的实现方法即最大堆[https://github.com/mangoqiqi/Golang-learning/blob/master/main/priority_queue_heap.go](https://github.com/mangoqiqi/Golang-learning/blob/master/main/priority_queue_heap.go)
 
 ### 什么是哈希表，冲突如何解决？
 
+参考[https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-hashmap/](https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-hashmap/)
 
 ## :computer: 操作系统
 
 ### 进程、线程、协程的区别
+
+参考[https://www.jianshu.com/p/f11724034d50](https://www.jianshu.com/p/f11724034d50)
 
 ### Linux常用信号（SIG）
 

@@ -17,6 +17,31 @@
 
 ### 简述快排，如何推导时间复杂度？
 
+主要思想：以数组第一个数为基准mid，从数组的起始位置为i，末尾为j，比较mid和位置为i的大小，如果位置为i的值小于mid，则这两个交换位置并且i增加1，否则置换i和j对应的值，j减一，当i与j碰头，即说明第一轮递归结束，mid值把数组分为两个部分，前面一部分的值小于等于mid，后面的值大于等于mid，再递归的把这两段进行排序即可：
+
+```
+func qsort(arr []int) {
+	if len(arr) <= 1 {
+		return
+	}
+	mid := arr[0]
+	begin, end := 0, len(arr)-1
+	for i := 1; i <= end; {
+		if (arr[i] < mid) {
+			arr[i], arr[begin] = arr[begin], arr[i]
+			begin++
+			i++
+		} else {
+			arr[i], arr[end] = arr[end], arr[i]
+			end--
+		}
+	}
+	qsort(arr[:begin])
+	qsort(arr[begin+1:])
+}
+```
+平均复杂度O(nlogn)，最坏O(n^2)
+
 
 ### 如何创建一个队列，优先队列，最大（小）堆？
 

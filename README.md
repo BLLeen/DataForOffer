@@ -109,6 +109,8 @@ Go面试题答案与解析[https://yushuangqi.com/blog/2017/golang-mian-shi-ti-d
 
 ### pod是如何做到优雅的退出的?
 
+这篇文章：[https://aleiwu.com/post/tidb-opeartor-webhook/](https://aleiwu.com/post/tidb-opeartor-webhook/)
+
 ### k8s有哪些组件？分别干什么用的？
 
 ### kubectl logs的流程？

@@ -93,7 +93,6 @@ func qsort(arr []int) {
 ### Cookies和Session的区别
 
 
-
 ## :floppy_disk: 数据库
 
 ### 数据库引擎有哪些？区别是啥？
@@ -104,12 +103,14 @@ func qsort(arr []int) {
 
 ### 什么是回表查询？如何避免？
 回表查询简单地说就是，第一次查询只查到了一部分，需要再次查询。解决办法是增加联合索引等
+
 [参考这篇文章](https://www.cnblogs.com/myseries/p/11265849.html)
 
 ### SQL注入是啥？怎么避免？
 SQL注入就是一种通过操作输入来修改后台SQL语句达到代码执行进行攻击目的的技术。
 
 避免：
+
 1.应使用基于角色的权限控制。严格限制Web应用的数据库的操作权限，给此用户提供仅仅能够满足其工作的最低权限，从而最大限度的减少注入攻击对数据库的危害。
 
 2.所有用户输入都是不可信的。检查输入的数据是否具有所期望的数据格式，严格限制变量的类型，例如使用regexp包进行一些匹配处理，或者使用strconv包对字符串转化成其他基本类型的数据进行判断。
@@ -159,8 +160,11 @@ Go面试题答案与解析[https://yushuangqi.com/blog/2017/golang-mian-shi-ti-d
 
 这篇文章：[https://aleiwu.com/post/tidb-opeartor-webhook/](https://aleiwu.com/post/tidb-opeartor-webhook/)
 
-主要方法：pre-stop-hook、
+主要方法：pre-stop-hook、ValidatingAdmissionWebhook
 
 ### k8s有哪些组件？分别干什么用的？
+
+Master：api-server、etcd、controller、scheduler
+Node：kubelet、kube-proxy
 
 ### kubectl logs的流程？

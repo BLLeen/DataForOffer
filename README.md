@@ -143,6 +143,8 @@ Go面试题答案与解析[https://yushuangqi.com/blog/2017/golang-mian-shi-ti-d
 
 ### go协程是如何调度的？
 
+参考 [https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-goroutine/](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-goroutine/)
+
 ### go的GC如何工作的？
 
 ### 如何处理内存泄漏？

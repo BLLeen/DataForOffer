@@ -129,6 +129,8 @@ SQL注入就是一种通过操作输入来修改后台SQL语句达到代码执�
 
 Go面试题答案与解析[https://yushuangqi.com/blog/2017/golang-mian-shi-ti-da-an-yujie-xi.html](https://yushuangqi.com/blog/2017/golang-mian-shi-ti-da-an-yujie-xi.html)
 
+### golang实现public、protected、private机制
+
 ### 数组和切片的区别
 
 ### 切片如何扩容的？
@@ -149,6 +151,8 @@ Go面试题答案与解析[https://yushuangqi.com/blog/2017/golang-mian-shi-ti-d
 
 ### 如何处理内存泄漏？
 
+golang使用pprof工具可以检查出内存泄漏
+
 ### go并发编程实现：一个查询功能，要求1.有1000并发数限制 2.有一个协程查到结果立马返回结束 3.每个线程都有超时时间10s
 
 ## :sparkles: Redis
@@ -157,6 +161,8 @@ Go面试题答案与解析[https://yushuangqi.com/blog/2017/golang-mian-shi-ti-d
 
 
 ### :truck: Docker & K8s
+
+### docker的核心技术？
 
 ### pod是如何做到优雅的退出的?
 
